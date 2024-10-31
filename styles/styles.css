@@ -1,0 +1,215 @@
+.message-addtocart .success {
+    background: #f0f0f0 none repeat scroll 0 0;
+    border-left: 5px solid #0a3f68;
+    color: #0a3f68;
+    font-size: 18px;
+    margin: auto;
+    padding: 5px 0 5px 15px;
+    width: 90%;
+	-webkit-transition: display .5s ease;  -moz-transition: display .5s ease;  -o-transition: display .5s ease;
+}
+
+.message-addtocart .error {
+    background: #f0f0f0 none repeat scroll 0 0;
+    border-left: 5px solid #49040A;
+    color: #49040A;
+    font-size: 18px;
+    margin: auto;
+    padding: 5px 0 5px 15px;
+    width: 90%;
+	-webkit-transition: display .5s ease;  -moz-transition: display .5s ease;  -o-transition: display .5s ease;
+}
+input[name="Quantity-pricing"] {
+    background: #f7f4f5 none repeat scroll 0 0;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    text-align: center;width: 50px !important;
+}
+.table-pricing-show-product {
+    text-align: center;width:100%;
+}
+.table-pricing-show-product .label-show-name {
+    text-align: left;
+}
+
+.label-show-name {
+    display: inline-block;
+    float: left;
+    vertical-align: top;
+    width: 28%;margin-top: 5px;
+}
+.label-pricing-price {
+    display: inline-block;
+    float: left;margin-top: 5px;
+    text-align: left;
+    vertical-align: top;
+    width: 20%;
+}
+.label-pricing-quantity {
+    display: inline-block;
+    float: left;   
+    vertical-align: top;
+    width: 22%;
+}
+.label-pricing-addtocart {
+   display: inline-block;
+    float: right;
+    margin-top: 1px;
+    text-align: right;
+    vertical-align: top;
+    width: 30%;
+}
+.table-pricing-show-product .label-show-name h5 {
+   line-height: 1;
+    margin: 0;
+}
+.table-pricing-shortcode { 
+	border-bottom: 1px solid #ddd;
+    clear: both;
+    display: inline-block;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    width: 100%;
+}
+
+.content-pricing-table-addtocart{width:100%;}
+.label-pricing-quantity > input[name="Quantity-pricing"] {    
+    color: #828282;
+    float: left;
+    height: 31px;
+    margin: 0;
+    padding: 2px;
+    width: 35px !important;
+	border:1px solid #ddd;
+	border-left:none;
+	border-right:none;
+}
+button[name="addtocart-pricing"] {
+    background: gray none repeat scroll 0 0;
+    border: medium none;
+    color: white; border-radius: 3px;width: 92px;
+}
+.label-pricing-price > p {
+    color: red;
+    margin: 0;
+	 font-size: 18px;
+	 line-height: 1.2;
+}
+.table-pricing-show-product hr {
+    margin: 0;
+}
+
+button[name="addtocart-pricing"]:hover {
+    background: #910D4D none repeat scroll 0 0;   
+}
+.label-pricing-quantity .except-quantity {
+    border: 1px solid #ddd;
+    cursor: pointer;
+    float: left;
+    font-size: 15px;
+    font-weight: bold;
+    height: 31px;
+    margin: 0;
+    width: 15px;
+}
+.label-pricing-quantity .plus-quantity {
+    border: 1px solid #ddd;
+    cursor: pointer;
+    float: left;
+    font-size: 15px;
+    font-weight: bold;
+    height: 31px;
+    margin: 0;
+    width: 15px;
+}
+.message-addtocart.mobile {
+	display:none;
+}
+.message-addtocart.mobile.hidden {
+	display:none;
+}
+.message-addtocart.mobile.active {
+	display:block;
+  background: rgba(10, 8, 8, 0.6) none repeat scroll 0 0;
+  bottom: 0;
+  color: #ffffff;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 9999;
+}
+.content-popup > h4 {
+  background: #008000 none repeat scroll 0 0;
+  color: #ffffff;
+  font-weight: bold;
+  margin: 0;
+  padding-bottom: 5px;
+  padding-left: 20px;
+  padding-top: 5px;
+  text-align: left;
+}
+.link-href .to-cart {
+  background: #051d44 none repeat scroll 0 0;
+  color: #ffffff;
+  float: left;
+  font-size: 20px;
+  width: 40%;
+}
+.link-href .shooping {
+  background: #750a31 none repeat scroll 0 0;
+  float: left;
+  font-size: 20px;
+  width: 60%;
+}
+.msg-mobile {
+  margin: 0;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+.msg-mobile .success{background:none;border:none;}
+.msg-mobile .error{background:none;border:none;}
+/* ipad media
+ ** Ipad will apply all code here both landscape and portrait **
+ */
+@media all and ( min-width: 768px ) and ( max-width: 1024px) {
+	.content-popup {
+	  background: #efe3e3 none repeat scroll 0 0;
+	  margin: 20% auto;
+	  width: 50%;
+	}
+}
+/* Ipad media for portrait
+ ** Code se duoc dung khi Ipad nam thang dung **
+ */
+@media all and ( min-width: 768px ) and ( max-width: 1024px ) and (orientation:portrait) {
+
+
+}
+/* Ipad media for Landscape
+ */
+@media all and ( min-width: 768px ) and ( max-width: 1024px ) and (orientation:landscape) {
+
+}
+/* Iphone + other mobile phone media 
+ */
+@media all and ( max-width: 699px ){
+	.content-popup {
+	  background: #efe3e3 none repeat scroll 0 0;
+	  margin: 10% auto;
+	  width: 90%;
+	}
+}
+/* Iphone + other mobile phone media 
+ */
+@media all and ( max-width: 699px ) and ( orientation:landscape){
+
+}
+/* Iphone + other mobile phone media 
+ */
+@media all and ( max-width: 699px ) and ( orientation:portrait){
+
+}
+

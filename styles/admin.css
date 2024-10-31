@@ -1,0 +1,177 @@
+
+body {
+    min-width: 520px;
+  }
+  .column {
+    width: 60%;   
+  }
+  .portlet.ui-widget.ui-widget-content.ui-helper-clearfix.ui-corner-all {
+    border-radius: 0;
+    padding: 0;
+}
+  .portlet {
+    margin: 0 1em 1em 0;
+    padding: 0.3em;
+  }
+  .portlet-header {
+    padding: 0.2em 0.3em;
+    margin-bottom: 0.5em;
+    position: relative;
+  }
+  .portlet-toggle {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    margin-top: -8px;
+  }
+  .portlet-content {
+    padding: 0.4em;
+  }
+  
+  .portlet-content.active{opacity:1;}
+  .portlet-content.hidden{opacity:0;}
+  .portlet-placeholder {
+    border: 1px dotted black;
+    margin: 0 1em 1em 0;
+    height: 50px;
+  }
+  
+ .row .product-left-pricing {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #dddddd;
+    padding: 0;
+	padding-bottom:10px;
+	margin-right: 15px;
+}
+.checkbox-table-pricing {
+    padding: 12px;
+}
+.row .product-right-pricing {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #dddddd;    
+    padding: 10px;
+    width: 72%;
+}
+.title-table-pricing {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.product-left-pricing > h4 {
+    background: #dddddd none repeat scroll 0 0;
+    margin: 0;
+    padding: 5px;
+    text-align: center;
+}
+
+.container.price_table {
+    max-width: 1140px;
+    padding: 0;
+}
+
+.price_table{
+	background:white;
+}
+.checkbox-table-pricing .checkbox {
+    padding-left: 22px;
+}
+.portlet-content .checkbox input {
+    float: right;
+    margin-bottom: 0 !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    margin-top: 5px;
+    width: 5%;
+}
+.portlet-content .checkbox > label {
+    float: right;
+    width: 77%;margin-bottom: 10px;
+}
+.column .portlet-header.ui-sortable-handle.ui-widget-header.ui-corner-all {
+    border: medium none;
+    border-radius: 0;
+    margin: 0;
+    padding: 7px;
+}
+.title-table {
+    display:none;
+	-webkit-transition: display .5s ease;
+  -moz-transition: display .5s ease;
+  -o-transition: display .5s ease;
+}
+.title-table.active {
+    display:block;
+}
+
+.product-right-pricing.hidden{
+display:none;
+-webkit-transition: display .5s ease;
+  -moz-transition: display .5s ease;
+  -o-transition: display .5s ease;
+}
+.product-right-pricing.active{
+display:block;
+}
+
+#form-create-table-pricing{
+display:none;
+-webkit-transition: display .5s ease;
+  -moz-transition: display .5s ease;
+  -o-transition: display .5s ease;
+}
+#form-create-table-pricing.active{display:block;}
+
+.column.resutlt_add.ui-sortable {
+   
+}
+.portlet-content .checkbox > a {
+    color: #6B0A0A;
+    float: right;
+}
+.lb-show-shortcode {
+    margin-top: 6px;
+}
+.container.price_table .messagebox-flag {
+    background: #e0e0e0 none repeat scroll 0 0;
+    border-left: 4px solid;
+    margin-bottom: 15px;
+    width: 98%;
+}
+.messagebox-flag p.error {
+    color: #820e0e;
+   font-size: 16px;
+    font-weight: bold;
+    margin: 0;
+    padding: 5px;
+	-webkit-transition: display .5s ease;
+  -moz-transition: display .5s ease;
+  -o-transition: display .5s ease;
+	
+}
+.messagebox-flag p.success {
+    color: #6086BC;
+   font-size: 16px;
+    font-weight: bold;
+    margin: 0;
+    padding: 5px;
+	-webkit-transition: display .5s ease;
+  -moz-transition: display .5s ease;
+  -o-transition: display .5s ease;
+}
+.messagebox-flag{
+display:none;
+-webkit-transition: display .5s ease;
+  -moz-transition: display .5s ease;
+  -o-transition: display .5s ease;
+}
+.messagebox-flag.active{
+display:block;
+}
+.ui-icon.ui-icon-minusthick.portlet-toggle.ct {
+  cursor: pointer;
+}
+.ui-icon.portlet-toggle.ct.ui-icon-plusthick {
+  cursor: pointer;
+}
+.portlet-header.ui-sortable-handle.ui-widget-header.ui-corner-all {
+  cursor: pointer;
+}
